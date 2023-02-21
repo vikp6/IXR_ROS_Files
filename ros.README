@@ -1,0 +1,10 @@
+#To Run a ROS TCP Node
+ros2 run ros_tcp_endpoint default_server_endpoint --ros-args -p ROS_IP:=10.56.5.255
+
+    python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py
+
+#Publisher to unity (color change example)
+ros2 run unity_robotics_demo color_publisher
+
+#Node graph
+rqt_graph

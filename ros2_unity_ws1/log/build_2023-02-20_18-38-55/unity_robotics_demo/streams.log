@@ -1,0 +1,30 @@
+[0.805s] Invoking command in '/home/xrcdevelopment/ros/ros2_unity_ws1/src/unity_robotics_demo': PYTHONPATH=/home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/prefix_override:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/build install --record /home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed
+[1.019s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.019s]   warnings.warn(
+[1.026s] running egg_info
+[1.027s] writing ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/PKG-INFO
+[1.027s] writing dependency_links to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/dependency_links.txt
+[1.027s] writing entry points to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/entry_points.txt
+[1.027s] writing requirements to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/requires.txt
+[1.027s] writing top-level names to ../../build/unity_robotics_demo/unity_robotics_demo.egg-info/top_level.txt
+[1.029s] reading manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.029s] writing manifest file '../../build/unity_robotics_demo/unity_robotics_demo.egg-info/SOURCES.txt'
+[1.030s] running build
+[1.030s] running build_py
+[1.030s] copying unity_robotics_demo/object_change.py -> /home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/build/lib/unity_robotics_demo
+[1.030s] running install
+[1.030s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.030s]   warnings.warn(
+[1.030s] running install_lib
+[1.031s] copying /home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/build/lib/unity_robotics_demo/object_change.py -> /home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo
+[1.032s] byte-compiling /home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo/object_change.py to object_change.cpython-310.pyc
+[1.032s] running install_data
+[1.033s] running install_egg_info
+[1.034s] removing '/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo-0.0.1-py3.10.egg-info' (and everything under it)
+[1.035s] Copying ../../build/unity_robotics_demo/unity_robotics_demo.egg-info to /home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages/unity_robotics_demo-0.0.1-py3.10.egg-info
+[1.036s] running install_scripts
+[1.056s] Installing color_publisher script to /home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.056s] Installing object_change script to /home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.056s] Installing position_service script to /home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/unity_robotics_demo
+[1.056s] writing list of installed files to '/home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/install.log'
+[1.087s] Invoked command in '/home/xrcdevelopment/ros/ros2_unity_ws1/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/prefix_override:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/build install --record /home/xrcdevelopment/ros/ros2_unity_ws1/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed
