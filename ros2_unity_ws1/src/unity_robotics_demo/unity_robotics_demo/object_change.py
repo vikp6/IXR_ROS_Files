@@ -14,8 +14,8 @@ class PosRotPublisher(Node):
         super().__init__('posrot_publisher')
         self.datasubscriber = subscriber
 
-        self.publisher_ = self.create_publisher(PosRot, 'posrot', 10)
-        timer_period = 0.5  # seconds
+        self.publisher_ = self.create_publisher(PosRot, 'posrot', 1000000000)
+        timer_period = 0.00000000000000000000000000000000000000000000001  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
         self.do_publish()
@@ -45,13 +45,13 @@ class PosRotPublisher(Node):
     def timer_callback(self):
         self.i = 0
         self.do_publish()
-        #print("Hello in timer callback")
+        print("ROS to Unity")
         #quit()     
 
 class FromUnityPosRotSubscriber(Node):
     def __init__(self):
         super().__init__('fromunityposrot_subscriber')
-        self.subscriber_=self.create_subscription(PosRot, '/pos_rot', self.listener_callback,10)
+        self.subscriber_=self.create_subscription(PosRot, '/pos_rot', self.listener_callback,1000000000)
         self.datacarrierPosRot = PosRot()
 
     def listener_callback(self, msg: PosRot):
