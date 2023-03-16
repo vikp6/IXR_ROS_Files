@@ -15,6 +15,10 @@
 #include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
+// Include directives for member types
+// Member 'data'
+#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp"
+
 #ifndef _WIN32
 # define DEPRECATED__dynamixel_sdk_custom_interfaces__srv__GetPosition_Request __attribute__((deprecated))
 #else
@@ -34,34 +38,27 @@ struct GetPosition_Request_
   using Type = GetPosition_Request_<ContainerAllocator>;
 
   explicit GetPosition_Request_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : data(_init)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->id = 0;
-    }
+    (void)_init;
   }
 
   explicit GetPosition_Request_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : data(_alloc, _init)
   {
-    (void)_alloc;
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->id = 0;
-    }
+    (void)_init;
   }
 
   // field types and members
-  using _id_type =
-    uint8_t;
-  _id_type id;
+  using _data_type =
+    dynamixel_sdk_custom_interfaces::msg::SetPosition_<ContainerAllocator>;
+  _data_type data;
 
   // setters for named parameter idiom
-  Type & set__id(
-    const uint8_t & _arg)
+  Type & set__data(
+    const dynamixel_sdk_custom_interfaces::msg::SetPosition_<ContainerAllocator> & _arg)
   {
-    this->id = _arg;
+    this->data = _arg;
     return *this;
   }
 
@@ -107,7 +104,7 @@ struct GetPosition_Request_
   // comparison operators
   bool operator==(const GetPosition_Request_ & other) const
   {
-    if (this->id != other.id) {
+    if (this->data != other.data) {
       return false;
     }
     return true;
@@ -129,6 +126,11 @@ using GetPosition_Request =
 }  // namespace dynamixel_sdk_custom_interfaces
 
 
+// Include directives for member types
+// Member 'out_data'
+// already included above
+// #include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp"
+
 #ifndef _WIN32
 # define DEPRECATED__dynamixel_sdk_custom_interfaces__srv__GetPosition_Response __attribute__((deprecated))
 #else
@@ -148,34 +150,27 @@ struct GetPosition_Response_
   using Type = GetPosition_Response_<ContainerAllocator>;
 
   explicit GetPosition_Response_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : out_data(_init)
   {
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->position = 0l;
-    }
+    (void)_init;
   }
 
   explicit GetPosition_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : out_data(_alloc, _init)
   {
-    (void)_alloc;
-    if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
-      rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
-    {
-      this->position = 0l;
-    }
+    (void)_init;
   }
 
   // field types and members
-  using _position_type =
-    int32_t;
-  _position_type position;
+  using _out_data_type =
+    dynamixel_sdk_custom_interfaces::msg::SetPosition_<ContainerAllocator>;
+  _out_data_type out_data;
 
   // setters for named parameter idiom
-  Type & set__position(
-    const int32_t & _arg)
+  Type & set__out_data(
+    const dynamixel_sdk_custom_interfaces::msg::SetPosition_<ContainerAllocator> & _arg)
   {
-    this->position = _arg;
+    this->out_data = _arg;
     return *this;
   }
 
@@ -221,7 +216,7 @@ struct GetPosition_Response_
   // comparison operators
   bool operator==(const GetPosition_Response_ & other) const
   {
-    if (this->position != other.position) {
+    if (this->out_data != other.out_data) {
       return false;
     }
     return true;

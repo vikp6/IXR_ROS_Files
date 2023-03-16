@@ -21,15 +21,15 @@ namespace srv
 namespace builder
 {
 
-class Init_GetPosition_Request_id
+class Init_GetPosition_Request_data
 {
 public:
-  Init_GetPosition_Request_id()
+  Init_GetPosition_Request_data()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::dynamixel_sdk_custom_interfaces::srv::GetPosition_Request id(::dynamixel_sdk_custom_interfaces::srv::GetPosition_Request::_id_type arg)
+  ::dynamixel_sdk_custom_interfaces::srv::GetPosition_Request data(::dynamixel_sdk_custom_interfaces::srv::GetPosition_Request::_data_type arg)
   {
-    msg_.id = std::move(arg);
+    msg_.data = std::move(arg);
     return std::move(msg_);
   }
 
@@ -48,7 +48,7 @@ template<>
 inline
 auto build<::dynamixel_sdk_custom_interfaces::srv::GetPosition_Request>()
 {
-  return dynamixel_sdk_custom_interfaces::srv::builder::Init_GetPosition_Request_id();
+  return dynamixel_sdk_custom_interfaces::srv::builder::Init_GetPosition_Request_data();
 }
 
 }  // namespace dynamixel_sdk_custom_interfaces
@@ -63,15 +63,15 @@ namespace srv
 namespace builder
 {
 
-class Init_GetPosition_Response_position
+class Init_GetPosition_Response_out_data
 {
 public:
-  Init_GetPosition_Response_position()
+  Init_GetPosition_Response_out_data()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  ::dynamixel_sdk_custom_interfaces::srv::GetPosition_Response position(::dynamixel_sdk_custom_interfaces::srv::GetPosition_Response::_position_type arg)
+  ::dynamixel_sdk_custom_interfaces::srv::GetPosition_Response out_data(::dynamixel_sdk_custom_interfaces::srv::GetPosition_Response::_out_data_type arg)
   {
-    msg_.position = std::move(arg);
+    msg_.out_data = std::move(arg);
     return std::move(msg_);
   }
 
@@ -90,7 +90,7 @@ template<>
 inline
 auto build<::dynamixel_sdk_custom_interfaces::srv::GetPosition_Response>()
 {
-  return dynamixel_sdk_custom_interfaces::srv::builder::Init_GetPosition_Response_position();
+  return dynamixel_sdk_custom_interfaces::srv::builder::Init_GetPosition_Response_out_data();
 }
 
 }  // namespace dynamixel_sdk_custom_interfaces

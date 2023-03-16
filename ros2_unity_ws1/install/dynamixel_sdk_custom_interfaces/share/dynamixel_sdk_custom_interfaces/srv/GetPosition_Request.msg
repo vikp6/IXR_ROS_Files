@@ -1,3 +1,3 @@
 # Constants
 # Request
-uint8 id
+SetPosition data

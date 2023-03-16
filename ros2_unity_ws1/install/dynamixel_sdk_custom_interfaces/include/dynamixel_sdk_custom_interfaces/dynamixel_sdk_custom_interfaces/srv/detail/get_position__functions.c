@@ -10,13 +10,21 @@
 
 #include "rcutils/allocator.h"
 
+// Include directives for member types
+// Member `data`
+#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h"
+
 bool
 dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__init(dynamixel_sdk_custom_interfaces__srv__GetPosition_Request * msg)
 {
   if (!msg) {
     return false;
   }
-  // id
+  // data
+  if (!dynamixel_sdk_custom_interfaces__msg__SetPosition__init(&msg->data)) {
+    dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -26,7 +34,8 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__fini(dynamixel_sdk_cu
   if (!msg) {
     return;
   }
-  // id
+  // data
+  dynamixel_sdk_custom_interfaces__msg__SetPosition__fini(&msg->data);
 }
 
 bool
@@ -35,8 +44,10 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__are_equal(const dynam
   if (!lhs || !rhs) {
     return false;
   }
-  // id
-  if (lhs->id != rhs->id) {
+  // data
+  if (!dynamixel_sdk_custom_interfaces__msg__SetPosition__are_equal(
+      &(lhs->data), &(rhs->data)))
+  {
     return false;
   }
   return true;
@@ -50,8 +61,12 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__copy(
   if (!input || !output) {
     return false;
   }
-  // id
-  output->id = input->id;
+  // data
+  if (!dynamixel_sdk_custom_interfaces__msg__SetPosition__copy(
+      &(input->data), &(output->data)))
+  {
+    return false;
+  }
   return true;
 }
 
@@ -235,13 +250,22 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `out_data`
+// already included above
+// #include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__functions.h"
+
 bool
 dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__init(dynamixel_sdk_custom_interfaces__srv__GetPosition_Response * msg)
 {
   if (!msg) {
     return false;
   }
-  // position
+  // out_data
+  if (!dynamixel_sdk_custom_interfaces__msg__SetPosition__init(&msg->out_data)) {
+    dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -251,7 +275,8 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__fini(dynamixel_sdk_c
   if (!msg) {
     return;
   }
-  // position
+  // out_data
+  dynamixel_sdk_custom_interfaces__msg__SetPosition__fini(&msg->out_data);
 }
 
 bool
@@ -260,8 +285,10 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__are_equal(const dyna
   if (!lhs || !rhs) {
     return false;
   }
-  // position
-  if (lhs->position != rhs->position) {
+  // out_data
+  if (!dynamixel_sdk_custom_interfaces__msg__SetPosition__are_equal(
+      &(lhs->out_data), &(rhs->out_data)))
+  {
     return false;
   }
   return true;
@@ -275,8 +302,12 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__copy(
   if (!input || !output) {
     return false;
   }
-  // position
-  output->position = input->position;
+  // out_data
+  if (!dynamixel_sdk_custom_interfaces__msg__SetPosition__copy(
+      &(input->out_data), &(output->out_data)))
+  {
+    return false;
+  }
   return true;
 }
 

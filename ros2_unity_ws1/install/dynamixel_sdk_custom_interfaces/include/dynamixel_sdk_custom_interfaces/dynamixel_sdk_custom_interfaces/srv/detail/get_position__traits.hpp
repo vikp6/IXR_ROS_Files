@@ -14,6 +14,10 @@
 #include "dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp"
 #include "rosidl_runtime_cpp/traits.hpp"
 
+// Include directives for member types
+// Member 'data'
+#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp"
+
 namespace dynamixel_sdk_custom_interfaces
 {
 
@@ -25,10 +29,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: id
+  // member: data
   {
-    out << "id: ";
-    rosidl_generator_traits::value_to_yaml(msg.id, out);
+    out << "data: ";
+    to_flow_style_yaml(msg.data, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -37,14 +41,13 @@ inline void to_block_style_yaml(
   const GetPosition_Request & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: id
+  // member: data
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "id: ";
-    rosidl_generator_traits::value_to_yaml(msg.id, out);
-    out << "\n";
+    out << "data:\n";
+    to_block_style_yaml(msg.data, out, indentation + 2);
   }
 }  // NOLINT(readability/fn_size)
 
@@ -94,17 +97,22 @@ inline const char * name<dynamixel_sdk_custom_interfaces::srv::GetPosition_Reque
 
 template<>
 struct has_fixed_size<dynamixel_sdk_custom_interfaces::srv::GetPosition_Request>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_fixed_size<dynamixel_sdk_custom_interfaces::msg::SetPosition>::value> {};
 
 template<>
 struct has_bounded_size<dynamixel_sdk_custom_interfaces::srv::GetPosition_Request>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_bounded_size<dynamixel_sdk_custom_interfaces::msg::SetPosition>::value> {};
 
 template<>
 struct is_message<dynamixel_sdk_custom_interfaces::srv::GetPosition_Request>
   : std::true_type {};
 
 }  // namespace rosidl_generator_traits
+
+// Include directives for member types
+// Member 'out_data'
+// already included above
+// #include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__traits.hpp"
 
 namespace dynamixel_sdk_custom_interfaces
 {
@@ -117,10 +125,10 @@ inline void to_flow_style_yaml(
   std::ostream & out)
 {
   out << "{";
-  // member: position
+  // member: out_data
   {
-    out << "position: ";
-    rosidl_generator_traits::value_to_yaml(msg.position, out);
+    out << "out_data: ";
+    to_flow_style_yaml(msg.out_data, out);
   }
   out << "}";
 }  // NOLINT(readability/fn_size)
@@ -129,14 +137,13 @@ inline void to_block_style_yaml(
   const GetPosition_Response & msg,
   std::ostream & out, size_t indentation = 0)
 {
-  // member: position
+  // member: out_data
   {
     if (indentation > 0) {
       out << std::string(indentation, ' ');
     }
-    out << "position: ";
-    rosidl_generator_traits::value_to_yaml(msg.position, out);
-    out << "\n";
+    out << "out_data:\n";
+    to_block_style_yaml(msg.out_data, out, indentation + 2);
   }
 }  // NOLINT(readability/fn_size)
 
@@ -186,11 +193,11 @@ inline const char * name<dynamixel_sdk_custom_interfaces::srv::GetPosition_Respo
 
 template<>
 struct has_fixed_size<dynamixel_sdk_custom_interfaces::srv::GetPosition_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_fixed_size<dynamixel_sdk_custom_interfaces::msg::SetPosition>::value> {};
 
 template<>
 struct has_bounded_size<dynamixel_sdk_custom_interfaces::srv::GetPosition_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, has_bounded_size<dynamixel_sdk_custom_interfaces::msg::SetPosition>::value> {};
 
 template<>
 struct is_message<dynamixel_sdk_custom_interfaces::srv::GetPosition_Response>

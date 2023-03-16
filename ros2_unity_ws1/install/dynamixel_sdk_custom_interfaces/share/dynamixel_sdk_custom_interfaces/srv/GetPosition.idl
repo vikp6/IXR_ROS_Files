@@ -2,6 +2,7 @@
 // with input from dynamixel_sdk_custom_interfaces/srv/GetPosition.srv
 // generated code does not contain a copyright notice
 
+#include "dynamixel_sdk_custom_interfaces/msg/SetPosition.idl"
 
 module dynamixel_sdk_custom_interfaces {
   module srv {
@@ -9,12 +10,12 @@ module dynamixel_sdk_custom_interfaces {
       "Constants" "\n"
       "Request")
     struct GetPosition_Request {
-      uint8 id;
+      dynamixel_sdk_custom_interfaces::msg::SetPosition data;
     };
     @verbatim (language="comment", text=
       "Response")
     struct GetPosition_Response {
-      int32 position;
+      dynamixel_sdk_custom_interfaces::msg::SetPosition out_data;
     };
   };
 };

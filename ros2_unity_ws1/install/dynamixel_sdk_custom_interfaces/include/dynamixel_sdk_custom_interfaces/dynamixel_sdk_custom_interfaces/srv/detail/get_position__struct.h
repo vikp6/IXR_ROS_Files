@@ -17,10 +17,14 @@ extern "C"
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'data'
+#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h"
+
 /// Struct defined in srv/GetPosition in the package dynamixel_sdk_custom_interfaces.
 typedef struct dynamixel_sdk_custom_interfaces__srv__GetPosition_Request
 {
-  uint8_t id;
+  dynamixel_sdk_custom_interfaces__msg__SetPosition data;
 } dynamixel_sdk_custom_interfaces__srv__GetPosition_Request;
 
 // Struct for a sequence of dynamixel_sdk_custom_interfaces__srv__GetPosition_Request.
@@ -36,10 +40,15 @@ typedef struct dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__Sequen
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'out_data'
+// already included above
+// #include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h"
+
 /// Struct defined in srv/GetPosition in the package dynamixel_sdk_custom_interfaces.
 typedef struct dynamixel_sdk_custom_interfaces__srv__GetPosition_Response
 {
-  int32_t position;
+  dynamixel_sdk_custom_interfaces__msg__SetPosition out_data;
 } dynamixel_sdk_custom_interfaces__srv__GetPosition_Response;
 
 // Struct for a sequence of dynamixel_sdk_custom_interfaces__srv__GetPosition_Response.

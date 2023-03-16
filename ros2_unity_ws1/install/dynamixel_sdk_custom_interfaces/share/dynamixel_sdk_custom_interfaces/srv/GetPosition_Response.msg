@@ -1,3 +1,3 @@
 
 # Response
-int32 position
+SetPosition out_data

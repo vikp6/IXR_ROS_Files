@@ -12,6 +12,12 @@
 #include "dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h"
 
 
+// Include directives for member types
+// Member `data`
+#include "dynamixel_sdk_custom_interfaces/msg/set_position.h"
+// Member `data`
+#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -33,14 +39,14 @@ void dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__rosidl_typesuppo
 
 static rosidl_typesupport_introspection_c__MessageMember dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__rosidl_typesupport_introspection_c__GetPosition_Request_message_member_array[1] = {
   {
-    "id",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
+    "data",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    NULL,  // members of sub message
+    NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(dynamixel_sdk_custom_interfaces__srv__GetPosition_Request, id),  // bytes offset in struct
+    offsetof(dynamixel_sdk_custom_interfaces__srv__GetPosition_Request, data),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -72,6 +78,8 @@ static rosidl_message_type_support_t dynamixel_sdk_custom_interfaces__srv__GetPo
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_dynamixel_sdk_custom_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamixel_sdk_custom_interfaces, srv, GetPosition_Request)() {
+  dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__rosidl_typesupport_introspection_c__GetPosition_Request_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamixel_sdk_custom_interfaces, msg, SetPosition)();
   if (!dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__rosidl_typesupport_introspection_c__GetPosition_Request_message_type_support_handle.typesupport_identifier) {
     dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__rosidl_typesupport_introspection_c__GetPosition_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
@@ -100,6 +108,14 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.h"
 
 
+// Include directives for member types
+// Member `out_data`
+// already included above
+// #include "dynamixel_sdk_custom_interfaces/msg/set_position.h"
+// Member `out_data`
+// already included above
+// #include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__rosidl_typesupport_introspection_c.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -121,14 +137,14 @@ void dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__rosidl_typesupp
 
 static rosidl_typesupport_introspection_c__MessageMember dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__rosidl_typesupport_introspection_c__GetPosition_Response_message_member_array[1] = {
   {
-    "position",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_INT32,  // type
+    "out_data",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    NULL,  // members of sub message
+    NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(dynamixel_sdk_custom_interfaces__srv__GetPosition_Response, position),  // bytes offset in struct
+    offsetof(dynamixel_sdk_custom_interfaces__srv__GetPosition_Response, out_data),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -160,6 +176,8 @@ static rosidl_message_type_support_t dynamixel_sdk_custom_interfaces__srv__GetPo
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_dynamixel_sdk_custom_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamixel_sdk_custom_interfaces, srv, GetPosition_Response)() {
+  dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__rosidl_typesupport_introspection_c__GetPosition_Response_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamixel_sdk_custom_interfaces, msg, SetPosition)();
   if (!dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__rosidl_typesupport_introspection_c__GetPosition_Response_message_type_support_handle.typesupport_identifier) {
     dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__rosidl_typesupport_introspection_c__GetPosition_Response_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;

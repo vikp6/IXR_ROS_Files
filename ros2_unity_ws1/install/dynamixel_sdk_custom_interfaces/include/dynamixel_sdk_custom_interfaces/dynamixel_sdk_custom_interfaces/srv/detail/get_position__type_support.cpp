@@ -39,14 +39,14 @@ void GetPosition_Request_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember GetPosition_Request_message_member_array[1] = {
   {
-    "id",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
+    "data",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    nullptr,  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<dynamixel_sdk_custom_interfaces::msg::SetPosition>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(dynamixel_sdk_custom_interfaces::srv::GetPosition_Request, id),  // bytes offset in struct
+    offsetof(dynamixel_sdk_custom_interfaces::srv::GetPosition_Request, data),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
@@ -158,14 +158,14 @@ void GetPosition_Response_fini_function(void * message_memory)
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMember GetPosition_Response_message_member_array[1] = {
   {
-    "position",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT32,  // type
+    "out_data",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
-    nullptr,  // members of sub message
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<dynamixel_sdk_custom_interfaces::msg::SetPosition>(),  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(dynamixel_sdk_custom_interfaces::srv::GetPosition_Response, position),  // bytes offset in struct
+    offsetof(dynamixel_sdk_custom_interfaces::srv::GetPosition_Response, out_data),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
