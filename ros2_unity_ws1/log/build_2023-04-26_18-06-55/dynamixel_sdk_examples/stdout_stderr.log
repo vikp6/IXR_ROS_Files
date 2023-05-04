@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target read_write_node_mod[0m
+[ 50%] Built target read_write_node
+[ 75%] [32mBuilding CXX object CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o[0m
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:[m[K In function ‘[01m[Kvoid resetDynamixelState()[m[K’:
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:189:20:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+  189 |   while(auto& motor[01;31m[K:[m[K MotorData)
+      |                    [01;31m[K^[m[K
+      |                    [32m[K::[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:189:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor[m[K’ has not been declared
+  189 |   while(auto& [01;31m[Kmotor[m[K: MotorData)
+      |               [01;31m[K^~~~~[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:189:31:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K)[m[K’ token
+  189 |   while(auto& motor: MotorData[01;31m[K)[m[K
+      |                               [01;31m[K^[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:196:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kmotor[m[K’ was not declared in this scope
+  196 |       [01;31m[Kmotor[m[K[0],
+      |       [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/read_write_node_mod.dir/build.make:76: CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/read_write_node_mod.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

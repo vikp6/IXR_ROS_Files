@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target read_write_node_mod[0m
+[ 50%] Built target read_write_node
+[ 75%] [32mBuilding CXX object CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o[0m
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:251:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope; did you mean ‘[01m[Krint[m[K’?
+  251 |     [01;31m[Kprint[m[K(key);
+      |     [01;31m[K^~~~~[m[K
+      |     [32m[Krint[m[K
+gmake[2]: *** [CMakeFiles/read_write_node_mod.dir/build.make:76: CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/read_write_node_mod.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,213 @@
+[0.018s] Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target read_write_node_mod[0m
+[0.087s] [ 50%] Built target read_write_node
+[0.128s] [ 75%] [32mBuilding CXX object CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o[0m
+[2.508s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.509s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.510s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.510s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.511s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:[m[K In function ‘[01m[Kvoid resetDynamixelState()[m[K’:
+[2.511s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.511s]   202 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.511s]       |                   [01;31m[K^~~~[m[K
+[2.511s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.511s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.511s]   202 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.512s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.512s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.512s]   202 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.512s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.512s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.512s]   202 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.512s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.512s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.512s]   202 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.512s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.512s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.512s]   202 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.512s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.512s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.512s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.513s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.513s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.513s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.514s]   202 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.514s]       |                   [01;31m[K^~~~[m[K
+[2.514s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:202:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.514s]   202 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%s", packetHandler->getTxRxResult(dxl_comm_result));
+[2.514s]       |                   [01;31m[K^~~~[m[K
+[2.514s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.514s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.515s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.515s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.515s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.515s]   206 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.515s]       |                   [01;31m[K^~~~[m[K
+[2.515s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.516s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.516s]   206 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.516s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.516s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.516s]   206 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.516s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.516s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.516s]   206 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.516s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.516s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.516s]   206 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.517s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.517s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.517s]   206 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.517s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.517s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.517s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.518s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.518s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.518s]   206 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.518s]       |                   [01;31m[K^~~~[m[K
+[2.518s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:206:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.518s]   206 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "%s", packetHandler->getRxPacketError(dxl_error));
+[2.518s]       |                   [01;31m[K^~~~[m[K
+[2.518s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.519s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.519s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.520s]   210 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.520s]       |                   [01;31m[K^~~~[m[K
+[2.520s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.520s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.520s]   210 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.520s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.520s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.520s]   210 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.520s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.520s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.520s]   210 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.520s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.520s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:7:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.520s]   210 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.521s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.521s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.521s]   210 |       [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.521s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.521s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.521s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.522s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.522s]   210 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.522s]       |                   [01;31m[K^~~~[m[K
+[2.522s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:19:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[2.522s]   210 |       RCLCPP_INFO([01;31m[Kthis[m[K->get_logger(), "Set [ID: %d] [Goal Position: %d]", msg->id, msg->position);
+[2.522s]       |                   [01;31m[K^~~~[m[K
+[2.522s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[2.522s]   210 |       RCLCPP_INFO(this->get_logger(), "Set [ID: %d] [Goal Position: %d]", [01;31m[Kmsg[m[K->id, msg->position);
+[2.522s]       |                                                                           [01;31m[K^~~[m[K
+[2.522s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:210:75:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[2.522s] In file included from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/set_position.hpp:7[m[K,
+[2.522s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:35[m[K:
+[2.522s] [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/include/dynamixel_sdk_custom_interfaces/dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kdynamixel_sdk_custom_interfaces::msg[m[K’
+[2.522s]    27 | namespace [01;36m[Kmsg[m[K
+[2.522s]       |           [01;36m[K^~~[m[K
+[2.522s] In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.523s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.523s] [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[2.523s]    27 | namespace [01;36m[Kmsg[m[K
+[2.524s]       |           [01;36m[K^~~[m[K
+[2.524s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.524s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.524s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.524s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[2.524s]    27 | namespace [01;36m[Kmsg[m[K
+[2.525s]       |           [01;36m[K^~~[m[K
+[2.525s] In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.525s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.525s]                  from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:37[m[K:
+[2.525s] [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[2.526s]    27 | namespace [01;36m[Kmsg[m[K
+[2.526s]       |           [01;36m[K^~~[m[K
+[5.017s] gmake[2]: *** [CMakeFiles/read_write_node_mod.dir/build.make:76: CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o] Error 1
+[5.017s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/read_write_node_mod.dir/all] Error 2
+[5.017s] gmake: *** [Makefile:146: all] Error 2
+[5.020s] Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples' returned '2': CMAKE_PREFIX_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples -- -j8 -l8

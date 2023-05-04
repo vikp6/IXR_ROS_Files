@@ -1,0 +1,50 @@
+[35m[1mConsolidate compiler generated dependencies of target read_write_node_mod[0m
+[ 50%] Built target read_write_node
+[ 75%] [32mBuilding CXX object CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o[0m
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:246:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kfstream[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::fstream[m[K’?
+  246 |   [01;31m[Kfstream[m[K newfile;
+      |   [01;31m[K^~~~~~~[m[K
+      |   [32m[Kstd::fstream[m[K
+In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:31[m[K:
+[01m[K/usr/include/c++/11/iosfwd:168:41:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::fstream[m[K’ declared here
+  168 |   typedef basic_fstream<char>           [01;36m[Kfstream[m[K;
+      |                                         [01;36m[K^~~~~~~[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:247:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knewfile[m[K’ was not declared in this scope
+  247 |   [01;31m[Knewfile[m[K.open("motorParams.txt",ios::in); //open a file to perform read operation using file object
+      |   [01;31m[K^~~~~~~[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:247:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kios[m[K’ has not been declared
+  247 |   newfile.open("motorParams.txt",[01;31m[Kios[m[K::in); //open a file to perform read operation using file object
+      |                                  [01;31m[K^~~[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:249:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+  249 |     [01;31m[Kstring[m[K tp;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:249:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/iosfwd:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:31[m[K:
+[01m[K/usr/include/c++/11/bits/stringfwd.h:79:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’
+   79 |   typedef basic_string<char>    [01;36m[Kstring[m[K;
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:32[m[K:
+[01m[K/usr/include/c++/11/string:67:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::string[m[K’
+   67 |     using [01;36m[Kstring[m[K    = basic_string<char>;
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:250:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktp[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  250 |     while(getline(newfile, [01;31m[Ktp[m[K)){ //read data from file object and put it into string.
+      |                            [01;31m[K^~[m[K
+      |                            [32m[Ktm[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:251:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+  251 |        [01;31m[Kcout[m[K << tp << "\n"; //print the data of the string
+      |        [01;31m[K^~~~[m[K
+      |        [32m[Kstd::cout[m[K
+In file included from [01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:33[m[K:
+[01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+   61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+      |                  [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/read_write_node_mod.dir/build.make:76: CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/read_write_node_mod.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
