@@ -1,0 +1,12 @@
+[ 50%] Built target read_write_node
+[ 75%] [32mBuilding CXX object CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o[0m
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:[m[K In lambda function:
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:101:19:[m[K [01;35m[Kwarning: [m[Kcomparison is always false due to limited range of data type [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  101 |       if([01;35m[K(msg->id)==-1[m[K){
+      |          [01;35m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples/src/read_write_node_mod.cpp:102:9:[m[K [01;31m[Kerror: [m[K‘[01m[KresetDynamixelState[m[K’ was not declared in this scope
+  102 |         [01;31m[KresetDynamixelState[m[K();
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/read_write_node_mod.dir/build.make:76: CMakeFiles/read_write_node_mod.dir/src/read_write_node_mod.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/read_write_node_mod.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

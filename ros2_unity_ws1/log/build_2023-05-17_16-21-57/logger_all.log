@@ -1,0 +1,472 @@
+[0.275s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.275s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f91dd7c3460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f91de0512a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f91de0512a0>>)
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.303s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.319s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ROS-TCP-Endpoint-main-ros2) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ROS-TCP-Endpoint-main-ros2' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo' with type 'ros.ament_python' and name 'unity_robotics_demo'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/unity_robotics_demo_msgs) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/unity_robotics_demo_msgs' with type 'ros.ament_cmake' and name 'unity_robotics_demo_msgs'
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.346s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install
+[0.347s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/xrcdevelopment/ros/ros2_unity_ws1/install
+[0.349s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.404s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk', 'merge_install': False, 'path': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk', 'symlink_install': False, 'test_result_base': None}
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/ROS-TCP-Endpoint-main-ros2', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo', 'merge_install': False, 'path': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo', 'symlink_install': False, 'test_result_base': None}
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'unity_robotics_demo_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'unity_robotics_demo_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs', 'merge_install': False, 'path': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples', 'merge_install': False, 'path': '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples', 'symlink_install': False, 'test_result_base': None}
+[0.410s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.413s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk' with build type 'ament_cmake'
+[0.413s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk'
+[0.417s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.417s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.417s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_custom_interfaces'
+[0.423s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.423s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.428s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/ROS-TCP-Endpoint-main-ros2' with build type 'ament_python'
+[0.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.437s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo' with build type 'ament_python'
+[0.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'ament_prefix_path')
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/hook/ament_prefix_path.sh'
+[0.441s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.441s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo_msgs' with build type 'ament_cmake'
+[0.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo_msgs'
+[0.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.450s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk -- -j8 -l8
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[0.725s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/ROS-TCP-Endpoint-main-ros2'
+[0.727s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.971s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo'
+[0.973s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.973s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk -- -j8 -l8
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[0.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs -- -j8 -l8
+[1.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk
+[1.062s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[1.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk
+[1.073s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk' for CMake module files
+[1.074s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk' for CMake config files
+[1.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[1.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib'
+[1.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[1.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/bin'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[1.083s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib/python3.10/site-packages'
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/bin'
+[1.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[1.090s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[1.093s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[1.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces
+[1.195s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk)
+[1.199s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk' for CMake module files
+[1.204s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk' for CMake config files
+[1.204s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'cmake_prefix_path')
+[1.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.ps1'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.dsv'
+[1.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/cmake_prefix_path.sh'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib'
+[1.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk', 'ld_library_path_lib')
+[1.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.ps1'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.dsv'
+[1.211s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/hook/ld_library_path_lib.sh'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/bin'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib/pkgconfig/dynamixel_sdk.pc'
+[1.212s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib/python3.10/site-packages'
+[1.213s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/bin'
+[1.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.sh'
+[1.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.bash'
+[1.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/dynamixel_sdk/package.zsh'
+[1.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/share/colcon-core/packages/dynamixel_sdk)
+[1.220s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[1.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_custom_interfaces
+[1.224s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[1.225s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[1.226s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[1.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.232s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib'
+[1.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.235s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.236s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/bin'
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/bin'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[1.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[1.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[1.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[1.330s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_custom_interfaces)
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces' for CMake module files
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces' for CMake config files
+[1.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'cmake_prefix_path')
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.ps1'
+[1.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.dsv'
+[1.339s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/cmake_prefix_path.sh'
+[1.339s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib'
+[1.340s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_custom_interfaces', 'ld_library_path_lib')
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.ps1'
+[1.342s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/hook/ld_library_path_lib.sh'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/bin'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib/pkgconfig/dynamixel_sdk_custom_interfaces.pc'
+[1.343s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib/python3.10/site-packages'
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/bin'
+[1.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.ps1'
+[1.347s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.dsv'
+[1.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.sh'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.bash'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/package.zsh'
+[1.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/share/colcon-core/packages/dynamixel_sdk_custom_interfaces)
+[1.350s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples' with build type 'ament_cmake'
+[1.350s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/DynamixelSDK/dynamixel_sdk_examples'
+[1.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples -- -j8 -l8
+[1.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo': PYTHONPATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo/prefix_override:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo/build install --record /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed
+[1.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/ROS-TCP-Endpoint-main-ros2': PYTHONPATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/ros_tcp_endpoint/prefix_override:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/ros_tcp_endpoint/build install --record /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[1.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs -- -j8 -l8
+[1.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs
+[1.693s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[1.695s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs' for CMake module files
+[1.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo_msgs
+[1.697s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs' for CMake config files
+[1.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[1.701s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib'
+[1.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/bin'
+[1.704s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib/python3.10/site-packages'
+[1.705s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/bin'
+[1.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[1.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[1.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[1.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo' for CMake module files
+[1.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/unity_robotics_demo' returned '0': PYTHONPATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo/prefix_override:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/unity_robotics_demo build --build-base /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo/build install --record /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/unity_robotics_demo/install.log --install-scripts $base/lib/unity_robotics_demo --single-version-externally-managed
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo' for CMake config files
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/lib'
+[1.786s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/bin'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/lib/pkgconfig/unity_robotics_demo.pc'
+[1.787s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/lib/python3.10/site-packages'
+[1.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo', 'pythonpath')
+[1.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.ps1'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.dsv'
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/hook/pythonpath.sh'
+[1.791s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/bin'
+[1.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo)
+[1.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/package.ps1'
+[1.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/package.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/package.sh'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/package.bash'
+[1.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/unity_robotics_demo/package.zsh'
+[1.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo/share/colcon-core/packages/unity_robotics_demo)
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint' for CMake module files
+[1.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/src/ROS-TCP-Endpoint-main-ros2' returned '0': PYTHONPATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/ros_tcp_endpoint/prefix_override:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/ros_tcp_endpoint/build install --record /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint' for CMake config files
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/lib'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/bin'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[1.801s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/lib/python3.10/site-packages'
+[1.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[1.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/bin'
+[1.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[1.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[1.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[1.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[1.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[1.846s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(unity_robotics_demo_msgs)
+[1.849s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs' for CMake module files
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs' for CMake config files
+[1.850s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'cmake_prefix_path')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/cmake_prefix_path.sh'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib'
+[1.854s] Level 1:colcon.colcon_core.shell:create_environment_hook('unity_robotics_demo_msgs', 'ld_library_path_lib')
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.ps1'
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.dsv'
+[1.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/hook/ld_library_path_lib.sh'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/bin'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib/pkgconfig/unity_robotics_demo_msgs.pc'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib/python3.10/site-packages'
+[1.857s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/bin'
+[1.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.ps1'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.dsv'
+[1.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.sh'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.bash'
+[1.861s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/unity_robotics_demo_msgs/package.zsh'
+[1.862s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/share/colcon-core/packages/unity_robotics_demo_msgs)
+[10.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples -- -j8 -l8
+[10.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples
+[10.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[10.116s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples' for CMake module files
+[10.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples' returned '0': CMAKE_PREFIX_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/ros_tcp_endpoint:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo:/home/xrcdevelopment/ros/ros2_unity_ws1/install/ros_tcp_endpoint:/opt/ros/humble LD_LIBRARY_PATH=/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_custom_interfaces/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk/lib:/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/home/xrcdevelopment/ros/ros2_unity_ws1/install/unity_robotics_demo_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/build/dynamixel_sdk_examples
+[10.117s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples' for CMake config files
+[10.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[10.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[10.120s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[10.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[10.121s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/lib'
+[10.121s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/bin'
+[10.121s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[10.121s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[10.122s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/bin'
+[10.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[10.124s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[10.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[10.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[10.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[10.125s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[10.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_sdk_examples)
+[10.159s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples' for CMake module files
+[10.160s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples' for CMake config files
+[10.160s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_sdk_examples', 'cmake_prefix_path')
+[10.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.ps1'
+[10.162s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.dsv'
+[10.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/hook/cmake_prefix_path.sh'
+[10.163s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/lib'
+[10.163s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/bin'
+[10.163s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/lib/pkgconfig/dynamixel_sdk_examples.pc'
+[10.164s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/lib/python3.10/site-packages'
+[10.164s] Level 1:colcon.colcon_core.environment:checking '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/bin'
+[10.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.ps1'
+[10.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.dsv'
+[10.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.sh'
+[10.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.bash'
+[10.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/dynamixel_sdk_examples/package.zsh'
+[10.167s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/dynamixel_sdk_examples/share/colcon-core/packages/dynamixel_sdk_examples)
+[10.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.167s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.167s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.174s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.174s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.186s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.187s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/local_setup.ps1'
+[10.188s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/_local_setup_util_ps1.py'
+[10.189s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/setup.ps1'
+[10.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/local_setup.sh'
+[10.191s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/_local_setup_util_sh.py'
+[10.192s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/setup.sh'
+[10.193s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/local_setup.bash'
+[10.194s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/setup.bash'
+[10.195s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/local_setup.zsh'
+[10.196s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xrcdevelopment/IXR_ROS_Files/ros2_unity_ws1/install/setup.zsh'
